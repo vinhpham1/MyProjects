@@ -4,6 +4,8 @@
   <scmRepositoryUrl>scm:git:https://github.com/vinhpham1/MyProjects.git</scmRepositoryUrl>
   <noUserCommitMessage>false</noUserCommitMessage>
   <displayStatus>true</displayStatus>
-  <commitMessagePattern>[message]</commitMessagePattern>
-  <manualSynchronizationIncludes/>
+  <commitMessagePattern>[message1]</commitMessagePattern>
+  <manualSynchronizationIncludes>
+    <include></include>
+  </manualSynchronizationIncludes>
 </hudson.plugins.scm__sync__configuration.ScmSyncConfigurationPlugin>
