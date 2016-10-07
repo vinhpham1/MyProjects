@@ -31,6 +31,10 @@
     </hudson.triggers.SCMTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
+  <rootModule>
+    <groupId>com.wakaleo.gameoflife</groupId>
+    <artifactId>gameoflife</artifactId>
+  </rootModule>
   <goals>clean package</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
