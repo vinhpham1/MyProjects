@@ -33,7 +33,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Maven>
-      <targets>clean package</targets>
+      <targets>clean install -o</targets>
       <mavenName>3.3.9</mavenName>
       <usePrivateRepository>false</usePrivateRepository>
       <settings class="jenkins.mvn.DefaultSettingsProvider"/>
