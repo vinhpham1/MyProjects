@@ -64,6 +64,10 @@
       <healthScaleFactor>1.0</healthScaleFactor>
       <allowEmptyResults>false</allowEmptyResults>
     </hudson.tasks.junit.JUnitResultArchiver>
+    <hudson.tasks.JavadocArchiver plugin="javadoc@1.4">
+      <javadocDir>gameoflife-core/target/site/apidocs</javadocDir>
+      <keepAll>false</keepAll>
+    </hudson.tasks.JavadocArchiver>
   </publishers>
   <buildWrappers/>
 </project>
