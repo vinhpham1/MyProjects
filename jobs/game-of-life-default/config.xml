@@ -50,14 +50,6 @@
     </hudson.tasks.Maven>
   </builders>
   <publishers>
-    <hudson.tasks.ArtifactArchiver>
-      <artifacts>**/target/*.jar</artifacts>
-      <allowEmptyArchive>false</allowEmptyArchive>
-      <onlyIfSuccessful>false</onlyIfSuccessful>
-      <fingerprint>false</fingerprint>
-      <defaultExcludes>true</defaultExcludes>
-      <caseSensitive>true</caseSensitive>
-    </hudson.tasks.ArtifactArchiver>
     <hudson.tasks.junit.JUnitResultArchiver plugin="junit@1.18">
       <testResults>**/target/surefire-reports/*.xml</testResults>
       <keepLongStdio>false</keepLongStdio>
